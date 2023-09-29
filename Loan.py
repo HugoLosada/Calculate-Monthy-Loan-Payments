@@ -1,0 +1,5 @@
+p = float(input("Enter the principal loan amount: "))
+r = float(input("Enter the monthly interest: "))
+n = float(input("Enter the total number of months: "))
+m = p*(r*(1 + r)**n ) / ((1 + r)** n - 1)
+print("The monthly payment is: ", m)
